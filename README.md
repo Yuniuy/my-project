@@ -1,5 +1,9 @@
 # 数据可视化工具 (Data Visualization Tool)
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
+
 上传自己的数据，一键生成各种可视化图表。
 
 ## 功能
@@ -47,10 +51,23 @@ streamlit run app.py
 my project/
 ├── app.py              # 主程序
 ├── requirements.txt    # 依赖清单
+├── VERSION             # 版本号
 ├── README.md
 ├── LICENSE
 └── .gitignore
 ```
+
+## 更新日志
+
+### v1.0.0 (2026-10-07)
+
+首个正式版本。
+
+- 支持上传 CSV / Excel 数据文件（自动识别 UTF-8 / GBK 编码）
+- 数据预览：数据表、统计摘要、数据类型与缺失值检查
+- 8 种图表：柱状图、折线图、散点图、饼图、直方图、箱线图、面积图、相关性热力图
+- 图表支持一键导出 PNG
+- 内置示例数据，无数据时也可体验
 
 ## 许可证
 
